@@ -1,0 +1,4 @@
+#!/bin/sh
+# Usage: bin/compile <build-dir> <cache-dir> <env-dir>
+cd $1
+exec build.sh
